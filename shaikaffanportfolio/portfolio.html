@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik Affan Ahemad Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #5c4caf;
+            color: #fbf6f6;
+            padding: 20px;
+            text-align: center;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 10px 0 0;
+        }
+
+        section {
+            padding: 20px;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        #about {
+            background-color: #d8dae1;
+            text-align: center;
+        }
+
+        #about img {
+            width: 200px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #about img:hover {
+            transform: scale(1.1);
+        }
+
+        #skills {
+            background-color: #d8dae1;
+        }
+
+        #skills ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #skills li {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color:#4c6bdc;
+            color: #fff;
+            border-radius: 20px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        #skills li:hover {
+            background-color: #1932ae;
+        }
+
+        #projects {
+            background-color: #d8dae1;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .project img {
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project img:hover {
+            transform: scale(1.05);
+        }
+
+        #resume {
+            background-color:#d8dae1;
+            text-align: center;
+        }
+
+        #resume a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #d8dae1;
+            color: #170101;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        #resume a:hover {
+            background-color: #5915ce;
+        }
+
+        #contact {
+            background-color: #fff;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            #skills ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .project img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>SHAIK AFFAN AHEMAD</h1>
+        <p>Web developer</p>
+    </header>
+
+    <section id="about">
+        <img src="frontimage.png" alt="Shivam Joshi Profile Picture">
+        <center><p>Hello I am <I> SHAIK AFFAN AHEMAD </I> currently pursuing Bachelors of Technology in computer science and engineering 
+        from <I>MANAV RACHNA UNIVERSITY . </I> 
+        I am continuously expanding my skills and knowledge in creating dynamic and user-friendly websites. 
+        My passion for technology and design drives me to learn and experiment with the latest web development trends and techniques. 
+        My Hobbies are Reading and Running.
+    </p></center>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            
+            
+            
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <!-- <div class="project">
+            <img src="./image/screenshot.png" alt="Project 1 Image">
+            <h3>Project 1: Website Redesign</h3>
+            <p>A responsive website redesign for a local business, built using HTML, CSS, and JavaScript.</p>
+        </div> -->
+        <div class="project">
+            <img src="project.png" alt="Project1 Image" >
+            <h3>Project Discription : An E-commerce Website</h3>
+            <p>A fully functional e-commerce website built using Html ,CSS,JavaScript.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="Shaik Affan Ahemad(Resume).pdf" download>Download Resume (PDF)</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="shaikaffanahemad@gmail.com">shaikaffanahemad@gmail.com</a></p>
+        <p>Phone: 9845675744</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 . All rights reserved- Affan </p>
+        <a href="https://www.linkedin.com/notifications/?filter=all"> Check Out! LinkedIn</a>
+    </footer>
+</body>
+
+</html>
